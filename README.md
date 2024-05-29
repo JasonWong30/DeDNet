@@ -1,2 +1,2 @@
-# DeDnet
+# DeDNet
 Code will be released.
