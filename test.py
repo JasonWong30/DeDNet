@@ -39,8 +39,7 @@ def guidedfilter(srcImg, guidedImg, rad=9,eps=0.01):
     # h = srcImg-dstImg
 
     return dstImg * 255.0
-
-# To run, set the fused_dir, and the val path in the TaskFusionDataset.py    ./model/Fusion/fusionmodel_final.pth  ./model/Fusion/fusion_model.pth
+    
 def main(ir_dir='./test_imgs/noiseir30', vi_dir='./test_imgs/noisevi30', save_dir='./SeAFusion',
          fusion_model_path='./model/Fusion/fusion_model1.pth'):
     print(fusion_model_path)
