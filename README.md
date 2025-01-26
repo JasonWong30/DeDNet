@@ -45,7 +45,7 @@ From [the link]([https://github.com/openai/guided-diffusion](https://drive.googl
 
 Download the Infrared-Visible Fusion (IVF) and place the paired images in your own path. 
 
-### 🏄 4. Inference (Sampling)
+### 🏄 4. Inference
 
 The user should adjust the argument (args.ir_dir and args.vi_dir) in the test.py for your own path of test dataset.
 
