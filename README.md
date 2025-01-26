@@ -43,7 +43,7 @@ From [the link]([https://github.com/openai/guided-diffusion](https://drive.googl
 
 ### 🏊 3. Data Preparation
 
-Download the Infrared-Visible Fusion (IVF) and place the paired images in your own path. 
+Download the Infrared-Visible Image Fusion (IVIF) and place the paired images in your own path. 
 
 ### 🏄 4. Inference
 
