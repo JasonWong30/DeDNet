@@ -61,7 +61,7 @@ Then, the fused results will be saved in the ``'./SeAFusion/'`` folder.
 
 ### Illustration of our DeDNet model.
 
-<img src="Fig//Framework.jpg" width="60%" align=center />
+<img src="Fig//framework.jpg" width="60%" align=center />
 
 ### Detail of DBB.
 
