@@ -4,7 +4,7 @@ Codes for ***DeDNet: Infrared and visible image fusion with noise removal by dec
 
 [Jingxue Huang](https://github.com/JasonWong30), [Xiaosong Li](https://github.com/lxs6), [Haishu Tan](https://www.fosu.edu.cn/mee/teachers/teachers-external/25647.html), [Lemiao Yang](), [Gao Wang](), [Peng Yi]().
 
--[*[Paper]*][https://www.sciencedirect.com/science/article/abs/pii/S0263224124009771] 
+-[*[Paper]*](https://www.sciencedirect.com/science/article/abs/pii/S0263224124009771) 
 
 ## Update
 - [2025-1] README.md is updated.
