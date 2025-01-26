@@ -25,7 +25,7 @@ Codes for ***DeDNet: Infrared and visible image fusion with noise removal by dec
 
 ## Abstract
 
-Infrared and visible image fusion integrates useful information from different modal images to generate one with comprehensive details and highlighted targets, thereby deepening the interpretation of the scene. However, existing deep-learning based methods do not consider noise, leading to suboptimal noisy fusion results. To address this issue, we propose a decomposition-driven neural network (DeDNet) to achieve joint fusion and noise removal. By introducing constraints between the fused and ground truth source images into the loss function, we develop an autoencoder as the basic fusion and denoising network. Furthermore, we propose a decomposition network that guided the decomposition of the fusion result, improving the denoising and details recovery. Experiments demonstrate DeDNet excels the state-of-the-art methods in objective and subjective evaluations, yielding competing performance in detection and segmentation. On the metrics,Qcb, EN, SSIM, PSNR, and CC, DeDNet average increased 10.92%, 21.13%, 82.97%, 8.55%, and 16.26% than the compared methods, respectively
+Infrared and visible image fusion integrates useful information from different modal images to generate one with comprehensive details and highlighted targets, thereby deepening the interpretation of the scene. However, existing deep-learning based methods do not consider noise, leading to suboptimal noisy fusion results. To address this issue, we propose a decomposition-driven neural network (DeDNet) to achieve joint fusion and noise removal. By introducing constraints between the fused and ground truth source images into the loss function, we develop an autoencoder as the basic fusion and denoising network. Furthermore, we propose a decomposition network that guided the decomposition of the fusion result, improving the denoising and details recovery. Experiments demonstrate DeDNet excels the state-of-the-art methods in objective and subjective evaluations, yielding competing performance in detection and segmentation. On the metrics,Qcb, EN, SSIM, PSNR, and CC, DeDNet average increased 10.92%, 21.13%, 82.97%, 8.55%, and 16.26% than the compared methods, respectively
 
 ### 🌐 Usage
 
@@ -61,18 +61,19 @@ Then, the fused results will be saved in the ``'./SeAFusion/'`` folder.
 
 ### Illustration of our DeDNet model.
 
-<img src="image//Workflow1.png" width="60%" align=center />
+<img src="Fig//Framework.jpg" width="60%" align=center />
 
-### Detail of DDFM.
+### Detail of DBB.
 
-<img src="image//Workflow2.png" width="60%" align=center />
+<img src="Fig//DBB.jpg" width="60%" align=center />
 
-<img src="image//Algorithm1.png" width="60%" align=center />
+### Qualitative fusion results with noise level sigma=30.
 
-### Qualitative fusion results.
+<img src="Fig//result_display.jpg" width="60%" align=center />
 
-### Quantitative fusion results.
+### Quantitative fusion results noise level sigma=30.
 
+<img src="Fig//metrics.jpg" width="60%" align=center />
 
 ## 📖 Related Work
-- Zixiang Zhao, Lilun Deng, Haowen Bai, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool. *Image Fusion via Vision-Language Model.* **ICML 2024**. https://arxiv.org/abs/2402.02235.
+-  MMA-UNet: A Multi-Modal Asymmetric UNet Architecture for Infrared and Visible Image Fusion.* **arxiv 2024** https://arxiv.org/pdf/2404.17747. 
