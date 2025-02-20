@@ -113,7 +113,7 @@ def convert(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run SeAFusiuon with pytorch')
     ## model
-    parser.add_argument('--model_path', '-M', type=str, default='./model/Fusion/fusion_model30.pth')
+    parser.add_argument('--model_path', '-M', type=str, default='./model/Fusion/fusion_model.pth')
     parser.add_argument('--model_path_final', type=str, default='./model/Fusion/fusion_model_final.pth')
     ## dataset
     parser.add_argument('--blocktype', type=str, default='DBB')
