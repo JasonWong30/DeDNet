@@ -39,7 +39,7 @@ Infrared and visible image fusion integrates useful information from different m
 ```
 
 ### 📃 2. Pre-trained Checkpoint Preparation
-From [the link]((https://drive.google.com/drive/folders/1Pu_f3XkrU3-dZZYvFmmfauyGwGWYZ__Z?usp=sharing), download the checkpoint and place it under the corresponding floder
+From [the link](https://drive.google.com/drive/folders/1Pu_f3XkrU3-dZZYvFmmfauyGwGWYZ__Z?usp=sharing), download the checkpoint and place it under the corresponding floder
 
 ### 🏊 3. Data Preparation
 
